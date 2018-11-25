@@ -17,7 +17,7 @@ public class SharedClass {
 	public WebDriver launchBrowser() throws InterruptedException {
 		System.out.println("in setup");
 		if(driver ==null){
-			System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","D:\\Radical2018\\chromedriver_win32_B39\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		System.out.println("opened browser");

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 //@Cucumber.Options(format = {"pretty", "html:target/cucumber-htmlreport", "json-pretty:target/cucumber-report.json"} )
 
-@CucumberOptions(features = {"src/test/resources/com/SharingObjectWithPicoContainerFeature/" },
+@CucumberOptions(features = {"src/test/resources/com/SingleFeatureFileMultiStepDefFile/" },
 					glue={"com/SharingObjectWithPicoContainerJava/"},
 					monochrome = true, //console output in readable format
 					//dryRun = true,

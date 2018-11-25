@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 					//dryRun=true,
 					
 					features= {"src/test/resources/com/HooksSD/"},
-					glue={"com/HooksSD/"},
+					glue={"com/hooksSD/"},
 					
 					plugin={"pretty",
 							"html:target/cucumber-htmlreport",
